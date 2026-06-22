@@ -1,0 +1,128 @@
+<svg width="1440" height="1800" viewBox="0 0 1440 1800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="180" y1="120" x2="1260" y2="1680" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF8F1"/>
+      <stop offset="0.45" stop-color="#FCEEE8"/>
+      <stop offset="1" stop-color="#F6E4EB"/>
+    </linearGradient>
+    <linearGradient id="hero" x1="260" y1="220" x2="1220" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#231F20"/>
+      <stop offset="0.55" stop-color="#43313A"/>
+      <stop offset="1" stop-color="#754B59"/>
+    </linearGradient>
+    <linearGradient id="sunset" x1="1040" y1="250" x2="1280" y2="620" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFD9B3"/>
+      <stop offset="1" stop-color="#F8A7A4"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFFDF9"/>
+      <stop offset="1" stop-color="#FFF6F0"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="200%" height="200%">
+      <feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#3D2430" flood-opacity="0.14"/>
+    </filter>
+    <filter id="soft" x="0" y="0" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
+  </defs>
+
+  <rect width="1440" height="1800" fill="url(#bg)"/>
+  <ellipse cx="1170" cy="240" rx="220" ry="130" fill="#FFF4E8" opacity="0.9" filter="url(#soft)"/>
+  <ellipse cx="240" cy="1480" rx="260" ry="150" fill="#F8D9E1" opacity="0.55" filter="url(#soft)"/>
+  <ellipse cx="1310" cy="1380" rx="240" ry="140" fill="#F4C9D5" opacity="0.48" filter="url(#soft)"/>
+
+  <rect x="84" y="74" width="1272" height="620" rx="44" fill="url(#hero)" filter="url(#shadow)"/>
+  <rect x="84" y="74" width="1272" height="620" rx="44" stroke="rgba(255,255,255,0.12)"/>
+
+  <circle cx="1130" cy="242" r="108" fill="url(#sunset)" opacity="0.95"/>
+  <path d="M973 395C1041 304 1116 249 1199 230C1245 219 1289 221 1330 239V639H814C822 548 875 476 973 395Z" fill="#F2B8B6" opacity="0.18"/>
+  <path d="M1042 282C1070 269 1090 278 1104 304C1123 340 1102 381 1073 419C1036 468 1012 509 1000 541" stroke="#FFF1EA" stroke-width="6" stroke-linecap="round" opacity="0.72"/>
+  <path d="M1090 306C1136 323 1167 357 1186 403C1200 438 1207 485 1209 544" stroke="#FFF1EA" stroke-width="6" stroke-linecap="round" opacity="0.6"/>
+  <path d="M1006 555C1027 499 1065 443 1124 385C1169 342 1214 315 1260 304" stroke="#FFF1EA" stroke-width="4" stroke-linecap="round" opacity="0.52"/>
+
+  <path d="M947 669C963 592 981 530 1002 483C1030 421 1060 374 1094 341C1107 328 1119 318 1130 313C1142 318 1155 329 1169 345C1200 380 1227 430 1250 494C1272 553 1288 611 1299 669H947Z" fill="#FFF4EF" opacity="0.12"/>
+  <path d="M1000 659C1011 601 1023 557 1039 517C1055 477 1074 441 1098 407C1112 386 1125 371 1139 362C1154 372 1168 389 1182 413C1203 450 1221 492 1237 539C1249 576 1260 616 1268 659" stroke="#FFF1EA" stroke-width="3" opacity="0.85"/>
+  <path d="M1083 427C1102 442 1121 455 1140 466C1161 478 1186 489 1213 499" stroke="#FFF1EA" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  <path d="M1068 474C1090 488 1115 500 1145 510C1171 518 1199 524 1228 527" stroke="#FFF1EA" stroke-width="3" stroke-linecap="round" opacity="0.74"/>
+  <path d="M1038 582C1080 564 1118 554 1152 553C1185 553 1219 562 1255 580" stroke="#FFF1EA" stroke-width="3" stroke-linecap="round" opacity="0.55"/>
+
+  <g opacity="0.16">
+    <path d="M846 602L932 540L1003 582L1090 507L1174 564L1254 493L1331 541V694H846V602Z" fill="#FFF0E8"/>
+    <path d="M846 655L924 610L982 641L1067 589L1142 633L1234 571L1331 624V694H846V655Z" fill="#2D1F27"/>
+  </g>
+
+  <text x="164" y="198" fill="#F4D8D1" font-size="20" letter-spacing="8">SONGDAOCHUANSHU BLOG</text>
+  <text x="160" y="320" fill="#FFF8F2" font-size="92" font-weight="700">松岛川树</text>
+  <text x="164" y="398" fill="#F4D8D1" font-size="30">记录技术、生活与慢一点的观察</text>
+  <text x="164" y="468" fill="#EFD2CB" font-size="24">更像一本轻小说封面的个人站，而不是一堆彩色特效。</text>
+
+  <rect x="160" y="534" width="156" height="54" rx="27" fill="#F26C5C"/>
+  <text x="205" y="568" fill="white" font-size="22" font-weight="700">进入文章</text>
+  <rect x="334" y="534" width="168" height="54" rx="27" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.2)"/>
+  <text x="381" y="568" fill="#FFF2EC" font-size="22" font-weight="600">关于我</text>
+
+  <g opacity="0.95">
+    <rect x="160" y="620" width="128" height="34" rx="17" fill="rgba(255,255,255,0.08)"/>
+    <text x="191" y="642" fill="#F7E5DE" font-size="18">12 篇文章</text>
+    <rect x="302" y="620" width="136" height="34" rx="17" fill="rgba(255,255,255,0.08)"/>
+    <text x="333" y="642" fill="#F7E5DE" font-size="18">4 个分类</text>
+    <rect x="452" y="620" width="176" height="34" rx="17" fill="rgba(255,255,255,0.08)"/>
+    <text x="484" y="642" fill="#F7E5DE" font-size="18">Nuxt + R2 驱动</text>
+  </g>
+
+  <rect x="120" y="748" width="1200" height="72" rx="36" fill="rgba(255,255,255,0.68)" stroke="rgba(90,46,60,0.08)"/>
+  <rect x="142" y="764" width="96" height="40" rx="20" fill="#2A2125"/>
+  <text x="177" y="789" fill="#FFF6F2" font-size="18" font-weight="700">全部</text>
+  <rect x="252" y="764" width="104" height="40" rx="20" fill="#FFF6F0" stroke="#EFD7CC"/>
+  <text x="287" y="789" fill="#6A4A4E" font-size="18">技术</text>
+  <rect x="370" y="764" width="104" height="40" rx="20" fill="#FFF6F0" stroke="#EFD7CC"/>
+  <text x="405" y="789" fill="#6A4A4E" font-size="18">生活</text>
+  <rect x="488" y="764" width="104" height="40" rx="20" fill="#FFF6F0" stroke="#EFD7CC"/>
+  <text x="523" y="789" fill="#6A4A4E" font-size="18">随记</text>
+  <rect x="606" y="764" width="104" height="40" rx="20" fill="#FFF6F0" stroke="#EFD7CC"/>
+  <text x="641" y="789" fill="#6A4A4E" font-size="18">归档</text>
+
+  <g filter="url(#shadow)">
+    <rect x="120" y="872" width="360" height="320" rx="30" fill="url(#card)"/>
+    <rect x="120" y="872" width="360" height="320" rx="30" stroke="#F0DDD3"/>
+    <rect x="148" y="902" width="74" height="28" rx="14" fill="#FFF0E8"/>
+    <text x="171" y="921" fill="#A45747" font-size="15" font-weight="700">技术</text>
+    <text x="148" y="978" fill="#201A1C" font-size="36" font-weight="700">把博客做成一本能翻的册子</text>
+    <text x="148" y="1048" fill="#6F6461" font-size="22">首页不再靠很多 hover 和彩色球体撑气氛，而是靠插画区、纸感卡片和更稳的留白。</text>
+    <text x="148" y="1140" fill="#E76B5B" font-size="20" font-weight="700">阅读全文 →</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="540" y="872" width="360" height="320" rx="30" fill="#FFFDFB"/>
+    <rect x="540" y="872" width="360" height="320" rx="30" stroke="#F0DDD3"/>
+    <rect x="568" y="902" width="74" height="28" rx="14" fill="#FFF3DF"/>
+    <text x="591" y="921" fill="#AD7A27" font-size="15" font-weight="700">随记</text>
+    <text x="568" y="978" fill="#201A1C" font-size="36" font-weight="700">动画感可以有，但必须退到背景</text>
+    <text x="568" y="1048" fill="#6F6461" font-size="22">小范围浮动、光斑、纸片阴影就够了。内容本身才是主角，效果只是帮它定气质。</text>
+    <text x="568" y="1140" fill="#E76B5B" font-size="20" font-weight="700">阅读全文 →</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="960" y="872" width="360" height="320" rx="30" fill="#FFF9F6"/>
+    <rect x="960" y="872" width="360" height="320" rx="30" stroke="#F0DDD3"/>
+    <rect x="988" y="902" width="74" height="28" rx="14" fill="#F7ECFF"/>
+    <text x="1011" y="921" fill="#7C5AA0" font-size="15" font-weight="700">生活</text>
+    <text x="988" y="978" fill="#201A1C" font-size="36" font-weight="700">背景插画应该像封面，而不是贴纸</text>
+    <text x="988" y="1048" fill="#6F6461" font-size="22">一张大的情绪插画占右侧或顶部，文章卡片维持克制，这样才不会显得廉价。</text>
+    <text x="988" y="1140" fill="#E76B5B" font-size="20" font-weight="700">阅读全文 →</text>
+  </g>
+
+  <g opacity="0.9">
+    <path d="M170 1342C238 1304 326 1290 432 1300" stroke="#E9C3B8" stroke-width="3" stroke-linecap="round"/>
+    <path d="M1010 1322C1077 1296 1170 1288 1266 1308" stroke="#E9C3B8" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <rect x="120" y="1286" width="1200" height="352" rx="34" fill="rgba(255,252,248,0.72)" stroke="#F0DDD3"/>
+  <text x="160" y="1360" fill="#201A1C" font-size="44" font-weight="700">这版想解决的问题</text>
+  <text x="160" y="1424" fill="#5E5250" font-size="24">1. 去掉现在那种“颜色很多但没有主视觉”的杂乱感</text>
+  <text x="160" y="1474" fill="#5E5250" font-size="24">2. 让首页像一本作品集封面，而不是普通模板博客</text>
+  <text x="160" y="1524" fill="#5E5250" font-size="24">3. 插画只做气质，不抢正文，不做满屏二次元元素堆砌</text>
+  <text x="160" y="1574" fill="#5E5250" font-size="24">4. 分类、卡片、详情页统一成一套纸张 + 暮色 + 朱砂点缀语言</text>
+
+  <text x="120" y="1716" fill="#826A67" font-size="18">Concept preview only · 如果你认可这张图的方向，我再按这个视觉语言把 Nuxt 页面重做。</text>
+</svg>
